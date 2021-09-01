@@ -1,0 +1,50 @@
+.footer-social__title,
+.footer-subscribe__title {
+  display: flex;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  color: $primary-white-color;
+  text-transform: uppercase;
+}
+
+.footer-social__list {
+  display: flex;
+}
+
+.footer-social__item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.footer-social__link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.footer-social__icon {
+  fill: $primary-white-color;
+  margin: 12px;
+}
+
+.footer-social {
+  margin-left: 70px;
+}
+
+.footer-adress {
+  display: flex;
+  align-items: baseline;
+}

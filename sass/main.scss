@@ -1,0 +1,36 @@
+@import "./base/normalize";
+@import "./utils/variables";
+
+@import "./base/general";
+
+@import "./components/page-header";
+
+@import "./components/nav";
+
+@import "./components/contacts-nav";
+
+@import "./components/_hero.scss";
+
+@import "./components/modal";
+
+@import "./components/basic-form";
+
+@import "./components/features";
+
+@import "./components/work";
+
+@import "./components/team";
+
+@import "./components/clients";
+
+@import "./components/page-footer";
+
+@import "./components/footer-social";
+
+@import "./components/_footer-subscribe";
+
+@import "./components/portfolio-filter";
+
+@import "./components/portfolio-examples";
+
+@import "./components/portfolio-card";

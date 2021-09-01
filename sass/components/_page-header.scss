@@ -1,0 +1,25 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__logo {
+  color: $logo-color-header;
+  font-family: $secondary-font;
+  font-weight: 700;
+
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.page-header__span,
+.page-footer__span {
+  color: $accent-color;
+
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.page-header__nav {
+  display: flex;
+  align-items: center;
+}
