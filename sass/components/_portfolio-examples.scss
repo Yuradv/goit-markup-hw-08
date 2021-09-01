@@ -1,23 +1,23 @@
 .examples {
-  padding: 0;
-  margin: 0;
+  // padding: 0;
+  // margin: 0;
   list-style: none;
 
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
 
-  margin-top: -30px;
-  margin-left: -30px;
+  // margin-top: -30px;
+  // margin-left: -30px;
 }
 
 .examples__item {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
-  margin-top: 30px;
+  // flex-basis: calc((100% - 90px) / 3);
+  // margin-left: 30px;
+  // margin-top: 30px;
 }
 
 .examples__link {
-  display: block;
+  // display: block;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -30,7 +30,7 @@
 }
 
 .examples__wrapper {
-  padding: 20px 24px;
+  // padding: 20px 24px;
 }
 
 .examples__title {

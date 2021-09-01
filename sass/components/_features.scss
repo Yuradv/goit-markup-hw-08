@@ -1,12 +1,16 @@
 .features {
-  display: flex;
+  // display: flex;
 }
 
 .features__item {
-  margin-right: 30px;
+  // margin-right: 30px;
 
   &:last-child {
     margin-right: 0;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-bottom: 30px;
   }
 }
 
@@ -22,12 +26,12 @@
 }
 
 .features__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $team-bcg-color;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // background-color: $team-bcg-color;
 
-  padding: 25px 0;
-  margin-bottom: 30px;
+  // padding: 25px 0;
+  // margin-bottom: 30px;
   border-radius: 4px;
 }
