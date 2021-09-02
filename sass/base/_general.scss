@@ -93,11 +93,11 @@ button {
 
 .button,
 .filter__button {
-  // display: inline-block;
+  display: inline-block;
   border: 1px solid transparent;
   border-radius: 4px;
-  // min-width: 200px;
-  // padding: 10px 32px 10px 32px;
+  min-width: 200px;
+  padding: 10px 32px 10px 32px;
 
   background-color: $button-bcg-color;
   color: $main-txt-color;

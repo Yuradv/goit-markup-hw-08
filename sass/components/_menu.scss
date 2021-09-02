@@ -46,25 +46,29 @@
   right: 16px;
   color: green;
 }
-
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .mobile-menu__item {
   margin-top: 48px;
   margin-bottom: 32px;
 
   &:last-child {
-    margin-bottom: 306px;
+    // margin-bottom: auto;
   }
 }
 
 .mobile-contacts__item {
-  margin-bottom: 32px;
+  // margin-bottom: 32px;
 
   &:first-child {
     color: $accent-color;
   }
 
   &:last-child {
-    margin-bottom: 64px;
+    // margin-bottom: 64px;
   }
 }
 .mobile-contacts__link {
@@ -99,7 +103,7 @@
 }
 
 .mobile-social__item {
-  margin-top: 64px;
+  // margin-top: 64px;
   margin-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 

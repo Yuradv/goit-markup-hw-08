@@ -13,10 +13,18 @@
   background-size: cover;
 
   @media screen and (max-width: 480px) {
-    max-width: 480px;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, $start-color, $start-color),
+      url(../images/herobcgr-480.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
   }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  background-image: linear-gradient(to right, $start-color, $start-color),
+    url(../images/herobcgr-480x2.jpg);
 }
 
 .hero__title {
@@ -31,7 +39,7 @@
   line-height: 1.3;
   letter-spacing: 0.06em;
 
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 480px) {
     width: 360px;
     font-size: 26px;
     line-height: 1.6;

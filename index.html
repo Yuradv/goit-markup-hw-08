@@ -62,7 +62,7 @@
             <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link">Портфолио</a></li>
             <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакты</a></li>
         </ul>
-    
+    <div class="mobile-wrapper">
         <ul class="mobile-contacts">
             <li class="mobile-contacts__item">
                 <a href="mailto:info@example.com" class="mobile-contacts__link">
@@ -81,6 +81,7 @@
             <li class="mobile-social__item"><a href="" class="mobile-social__link">Facebook</a></li>
             <li class="mobile-social__item"><a href="" class="mobile-social__link">LinkedIn</a></li>
         </ul>
+    </div>
     </div>
     </div>
 
@@ -183,8 +184,14 @@
             <div class="container">
                 <h2 class="section__title">Наша Команда</h2>
                 <ul class="team">
-                    <li class="team__item"><img src="./images/person1.jpg"
-                            alt="Фото члена команды Игорь Демьяненко" >
+                    <li class="team__item"> 
+                        <img 
+                        srcset="
+                              ./images/person1-480px.jpg 1x,
+                              ./images/person1-786px.jpg 2x,
+                              ./images/person1-1200px.jpg 3x
+                            " 
+                            src="./images/person1-480px.jpg" alt="Фото члена команды Игоря Демьяненко" width="320" />
                         <div class="team__box">
                             <h3 class="team__person">Игорь Демьяненко</h3>
                             <p class="team__text">Product Designer</p>
@@ -219,8 +226,12 @@
                     </li>
 
 
-                    <li class="team__item"><img src="./images/person2.jpg"
-                            alt="Фото члена команды Ольга Репина" >
+                    <li class="team__item">
+                        <img srcset="
+                                                      ./images/person2-480px.jpg 1x,
+                                                      ./images/person2-786px.jpg 2x,
+                                                      ./images/person2-1200px.jpg 3x
+                                                    " src="./images/person2-480px.jpg" alt="Фото члена команды Ольга Репина" width="320" />
                         <div class="team__box">
                             <h3 class="team__person">Ольга Репина</h3>
                             <p class="team__text">Frontend Developer</p>
@@ -254,8 +265,12 @@
                         </div>
                     </li>
 
-                    <li class="team__item"><img src="./images/person3.jpg"
-                            alt="Фото члена команды Николай Тарасов" >
+                    <li class="team__item"><img srcset="
+                                                                          ./images/person3-480px.jpg 1x,
+                                                                          ./images/person3-786px.jpg 2x,
+                                                                          ./images/person3-1200px.jpg 3x
+                                                                        " src="./images/person3-480px.jpg"
+                        alt="Фото члена команды Николай Тарасов" width="320" />
                         <div class="team__box">
                             <h3 class="team__person">Николай Тарасов</h3>
                             <p class="team__text">Marketing</p>
@@ -289,8 +304,12 @@
 
                     </li>
 
-                    <li class="team__item"><img src="./images/person4.jpg"
-                            alt="Фото члена команды Михали Ермаков" >
+                    <li class="team__item"><img srcset="
+                                                                          ./images/person4-480px.jpg 1x,
+                                                                          ./images/person4-786px.jpg 2x,
+                                                                          ./images/person4-1200px.jpg 3x
+                                                                        " src="./images/person4-480px.jpg"
+                        alt="Фото члена команды Михаил Ермаков" width="320" />
                         <div class="team__box">
                             <h3 class="team__person">Михаил Ермаков</h3>
                             <p class="team__text">UI Designer</p>
