@@ -3,6 +3,9 @@
   // margin-left: auto;
   // justify-content: center;
   // align-items: center;
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .contacts-nav__item {
@@ -13,6 +16,10 @@
 
   &:last-child {
     // margin-right: 0;
+  }
+
+  @media screen and(min-width:480px) {
+    margin-bottom: 32px;
   }
 }
 
@@ -35,9 +42,18 @@
     color: $accent-color;
     text-shadow: $main-shadow;
   }
+
+  @media screen and(min-width:480px) {
+    font-size: 34px;
+    line-height: 1.17;
+  }
 }
 
 .contacts-nav__icon {
-  // margin-right: 10px;
+  margin-right: 10px;
   fill: currentColor;
+
+  @media screen and(max-width:480px) {
+    display: none;
+  }
 }

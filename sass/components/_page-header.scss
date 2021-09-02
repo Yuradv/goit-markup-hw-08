@@ -1,5 +1,5 @@
 .page-header {
-  // border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header__logo {
@@ -9,6 +9,8 @@
 
   font-size: 26px;
   line-height: 1.19;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .page-header__span,
@@ -20,6 +22,11 @@
 }
 
 .page-header__nav {
-  // display: flex;
-  // align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+page-header__contacts {
+  position: relative;
 }

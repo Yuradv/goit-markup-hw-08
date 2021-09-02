@@ -3,8 +3,7 @@
 }
 
 .footer-subscribe__form {
-  // display: flex;
-  // align-items: center;
+  width: 450px;
   // height: 50px;
 }
 
@@ -17,30 +16,39 @@
   filter: drop-shadow($main-shadow);
   border-radius: 4px;
 
-  // padding-left: 16px;
-  // padding-top: 15px;
-  // padding-bottom: 15px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   color: $primary-white-color;
   // margin-right: 12px;
+
+  @media screen and(max-width: 480px) {
+    height: 50px;
+    min-width: 450px;
+  }
 }
 
 .footer-subscribe__ input::placeholder {
   font-size: 16px;
   line-height: 1.25;
 
-  color: 255, 255, 255, 0.6;
+  color: rgba(255, 255, 255, 0.6);
+
+  @media screen and(max-width: 480px) {
+    line-height: 1.37;
+  }
 }
 
 .footer-subscribe__icon {
-  // margin-left: 10px;
+  margin-left: 10px;
 }
 
 .footer-subscribe__button {
-  // display: flex;
-  // align-items: center;
+  display: flex;
+  align-items: center;
 
-  // padding: 10px 28px 10px 29px;
+  padding: 10px 28px 10px 29px;
 
   background-color: $accent-color;
   color: $primary-white-color;
@@ -52,6 +60,12 @@
   box-shadow: $main-shadow;
   border: 1px solid transparent;
   border-radius: 4px;
-  // min-width: 200px;
+  max-width: 200px;
   height: 50px;
+
+  @media screen and(max-width: 480px) {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 140px;
+  }
 }

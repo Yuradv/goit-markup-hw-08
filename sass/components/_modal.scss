@@ -1,15 +1,20 @@
 .backdrop {
-  // position: fixed;
+  position: fixed;
 
-  // top: 0;
-  // left: 0;
+  top: 0;
+  left: 0;
 
-  // width: 100%;
-  // height: 100%;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (max-width: 480px) {
+    width: 450px;
+    height: 609px;
+  }
 }
 
 .backdrop.is-hidden {
@@ -22,13 +27,14 @@
 }
 
 .modal {
-  // position: fixed;
-  // top: 50%;
-  // left: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
 
-  // width: 528px;
+  width: 100%;
+  height: 100%;
 
-  // padding: 40px;
+  padding: 40px;
 
   background-color: $primary-white-color;
 
@@ -36,17 +42,22 @@
 
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
     scale 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (max-width: 480px) {
+    width: 450px;
+    height: 609px;
+  }
 }
 
 .modal__button {
-  // position: absolute;
-  // top: 8px;
-  // right: 8px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
 
-  // width: 30px;
-  // height: 30px;
+  width: 30px;
+  height: 30px;
 
-  // padding: 6px;
+  padding: 6px;
 
   border: 1px solid #0000001a;
   border-radius: 50%;
@@ -56,8 +67,8 @@
 }
 
 .modal__icon {
-  // width: 100%;
-  // height: 100%;
+  width: 100%;
+  height: 100%;
   fill: #000000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

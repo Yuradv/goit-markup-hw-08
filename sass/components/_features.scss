@@ -17,21 +17,28 @@
 .features__title {
   font-weight: 700;
   text-transform: uppercase;
+  @media screen and(max-width: 486px) {
+    text-align: center;
+  }
 }
 
 .features__text {
   color: $secondary-txt-color;
   line-height: 1.71;
   margin-top: 10px;
+  @media screen and(max-width: 486px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .features__icon {
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-  // background-color: $team-bcg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $team-bcg-color;
 
-  // padding: 25px 0;
-  // margin-bottom: 30px;
+  padding: 25px 0;
+  margin-bottom: 30px;
   border-radius: 4px;
 }

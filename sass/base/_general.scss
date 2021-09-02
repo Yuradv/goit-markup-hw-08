@@ -6,7 +6,7 @@ h5,
 h6,
 p,
 span {
-  // margin: 0;
+  margin: 0;
 }
 
 a {
@@ -15,8 +15,8 @@ a {
 
 ul {
   list-style: none;
-  // padding: 0;
-  // margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -30,31 +30,30 @@ body {
 }
 
 .container {
-  // margin-left: auto;
-  // margin-right: auto;
-  // width: 1200px;
-  // padding-left: 15px;
-  // padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid red;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 480px) {
     width: 480px;
-    border: 3px solid red;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     width: 768px;
   }
 
-  @media screen and (max-width: 1140px) {
+  @media screen and (min-width: 1140px) {
     width: 1140px;
   }
 }
 
 .section {
-  // padding-top: 94px;
-  // padding-bottom: 94px;
-  // padding-left: 0;
-  // padding-right: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 0;
+  padding-right: 0;
 
   @media screen and (max-width: 1200px) {
     padding-top: 60px;
@@ -63,7 +62,7 @@ body {
 }
 
 .section--nopaddingtop {
-  // padding-top: 0;
+  padding-top: 0;
 }
 
 .section__title {
@@ -71,6 +70,11 @@ body {
   line-height: 1.16;
   text-align: center;
   font-weight: 700;
+
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+    line-height: 1.17;
+  }
 }
 
 .section__title--hidden {

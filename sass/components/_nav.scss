@@ -1,6 +1,9 @@
 .nav {
   // display: flex;
   // margin-left: 93px;
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .nav__item {
@@ -10,6 +13,14 @@
 
   &:last-child {
     margin-right: 0px;
+  }
+
+  @media screen and(min-width:480px) {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 302px;
+    }
   }
 }
 
@@ -28,10 +39,18 @@
     text-shadow: $main-shadow;
     color: $accent-color;
   }
+
+  @media screen and(min-width:480px) {
+    margin-left: 40px;
+    font-size: 40px;
+    line-height: 1.17;
+  }
 }
 
 .nav__link--active {
-  color: $accent-color;
+  @media screen and(min-width: 768px) {
+    color: $accent-color;
+  }
 }
 
 .nav__link--active::after {
