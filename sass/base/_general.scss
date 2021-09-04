@@ -55,7 +55,7 @@ body {
   padding-left: 0;
   padding-right: 0;
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -71,14 +71,14 @@ body {
   text-align: center;
   font-weight: 700;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 28px;
     line-height: 1.17;
   }
 }
 
 .section__title--hidden {
-  @media screen and(max-width: 1200px ) {
+  @media screen and(min-width: 480px ) {
     display: none;
   }
 }
@@ -112,4 +112,10 @@ button {
   &:focus {
     color: $accent-color;
   }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }

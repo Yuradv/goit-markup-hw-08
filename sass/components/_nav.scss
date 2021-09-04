@@ -1,11 +1,11 @@
 .nav {
-  display: flex;
-  margin-left: 93px;
-  @media (max-width: 767px) {
+  // margin-left: 93px;
+  @media (min-width: 480px) {
     display: none;
   }
   @media (min-width: 768px) {
-    // display: flex;
+    display: flex;
+    margin-left: 88px;
   }
 }
 
@@ -28,9 +28,9 @@
 }
 
 .nav__link {
-  // display: block;
-  // padding-top: 32px;
-  // padding-bottom: 32px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--main-txt-color);
   font-weight: 500;
   letter-spacing: 0.02em;

@@ -30,7 +30,7 @@
   color: $primary-white-color;
   // margin-right: 12px;
 
-  @media screen and(max-width: 480px) {
+  @media screen and(min-width: 480px) {
     max-width: 450px;
   }
 }
@@ -41,7 +41,7 @@
 
   color: rgba(255, 255, 255, 0.6);
 
-  @media screen and(max-width: 480px) {
+  @media screen and(min-width: 480px) {
     line-height: 1.37;
   }
 }
@@ -69,6 +69,8 @@
   max-width: 200px;
   height: 50px;
 
-  @media screen and(max-width: 480px) {
+  @media screen and(min-width: 480px) {
+    margin-top: 20px;
+    margin-left: 140px;
   }
 }

@@ -13,8 +13,8 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (max-width: 480px) {
-    max-width: 450px;
+  @media screen and (min-width: 480px) {
+    
   }
 }
 
@@ -98,7 +98,7 @@ textarea {
 
   height: 50px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 480px) {
     font-size: 12px;
     line-height: 1.16;
   }

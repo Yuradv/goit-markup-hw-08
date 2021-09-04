@@ -2,8 +2,9 @@
   // display: flex;
 
   @media screen and (min-width: 767px) {
+    display: flex;
     width: calc((100% - 2 * 30px) / 2);
-    margin: 15px;
+    margin-bottom: 30px;
   }
 }
 
@@ -14,7 +15,7 @@
     margin-right: 0;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 480px) {
     margin-bottom: 30px;
   }
 }
@@ -22,7 +23,7 @@
 .features__title {
   font-weight: 700;
   text-transform: uppercase;
-  @media screen and(max-width: 486px) {
+  @media screen and(min-width: 486px) {
     text-align: center;
   }
 }
@@ -31,7 +32,7 @@
   color: $secondary-txt-color;
   line-height: 1.71;
   margin-top: 10px;
-  @media screen and(max-width: 486px) {
+  @media screen and(min-width: 486px) {
     padding-left: 15px;
     padding-right: 15px;
   }

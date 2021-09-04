@@ -6,11 +6,14 @@
   font-weight: 700;
   color: $primary-white-color;
   text-transform: uppercase;
+  @media screen and(min-width: 480px) {
+    margin-top: 60px;
+  }
 }
 
 .footer-social__list {
   display: flex;
-  @media screen and(max-width: 480px) {
+  @media screen and(min-width: 480px) {
     justify-content: center;
   }
 }

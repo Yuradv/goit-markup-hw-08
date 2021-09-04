@@ -4,10 +4,7 @@
   // justify-content: center;
   text-align: center;
 
-  @media screen and (max-width: 1200px) {
-    margin-top: 30px;
-  }
-  @media screen and (max-width: 1200px) {
+  @media screen and (min-width: 480px) {
     margin-top: 30px;
   }
 }
@@ -19,7 +16,7 @@
   &:last-child {
     margin-right: 0;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 480px) {
     margin-bottom: 30px;
     align-items: center;
     justify-content: center;
@@ -34,9 +31,6 @@
   background-color: $primary-white-color;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  @media screen and (max-width: 768px) {
-    padding-bottom: 10px;
-  }
 }
 
 .team__person {
