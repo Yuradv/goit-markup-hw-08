@@ -1,10 +1,10 @@
 .features {
   // display: flex;
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     display: flex;
-    width: calc((100% - 2 * 30px) / 2);
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
   }
 }
 
@@ -17,6 +17,11 @@
 
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 2 * 30px) / 2);
+    margin-right: 30px;
   }
 }
 

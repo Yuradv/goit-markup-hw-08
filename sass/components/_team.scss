@@ -7,6 +7,11 @@
   @media screen and (min-width: 480px) {
     margin-top: 30px;
   }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .team__item {
@@ -18,9 +23,11 @@
   }
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 2 * 30px) / 2);
+    margin-right: 30px;
   }
 }
 
