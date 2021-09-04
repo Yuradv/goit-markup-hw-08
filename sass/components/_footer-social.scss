@@ -1,6 +1,5 @@
 .footer-social__title,
 .footer-subscribe__title {
-  // display: flex;
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -58,12 +57,7 @@
     align-items: center;
     justify-content: center;
   }
-}
-
-.footer-adress {
-  // display: flex;
-  // align-items: baseline;
-
-  @media screen and(max-width: 480px) {
+  @media screen and(min-width: 1200px) {
+    margin-right: 93px;
   }
 }

@@ -2,7 +2,7 @@ textarea {
   resize: none;
 }
 .modal__title {
-  // margin-bottom: 12px;
+  margin-bottom: 12px;
 
   font-weight: 700;
   font-size: 20px;
@@ -14,7 +14,6 @@ textarea {
   margin-right: auto;
 
   @media screen and (min-width: 480px) {
-    
   }
 }
 

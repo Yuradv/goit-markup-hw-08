@@ -1,16 +1,22 @@
 .footer-subscribe {
   // margin-left: 93px;
+  @media screen and(min-width: 1200px) {
+  }
 }
 
 .footer-subscribe__form {
   // width: 450px;
-
-  @media screen and(max-width: 480px) {
-    // max-width: 450px;
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    width: 450px;
   }
 }
+
 .footer-subscribe__field {
   max-width: 100%;
+  @media screen and(min-width: 1200px) {
+    width: 450px;
+  }
 }
 
 .footer-subscribe__input {
@@ -28,10 +34,12 @@
   width: 100%;
 
   color: $primary-white-color;
-  // margin-right: 12px;
 
   @media screen and(min-width: 480px) {
     max-width: 450px;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 358px;
   }
 }
 
@@ -77,5 +85,9 @@
   @media screen and (min-width: 768px) {
     margin-left: auto;
     margin-right: auto;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-top: 0;
+    margin-left: 12px;
   }
 }

@@ -7,13 +7,21 @@
   margin-right: auto;
 
   background-image: linear-gradient(to right, $start-color, $start-color),
-    url(../images/herobcgr.jpg);
+    url(../images/heromob1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     background-image: linear-gradient(to right, $start-color, $start-color),
-      url(../images/herobcgr-480.jpg);
+      url(../images/heromob2x.jpg);
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 786px) {
+    background-image: linear-gradient(to right, $start-color, $start-color),
+      url(../images/herotab1x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -22,7 +30,23 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     background-image: linear-gradient(to right, $start-color, $start-color),
-      url(../images/herobcgr-480x2.jpg);
+      url(../images/herotab2x.jpg);
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(to right, $start-color, $start-color),
+      url(../images/herodesk1x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(to right, $start-color, $start-color),
+      url(../images/herodesk2x.jpg);
+    background-size: cover;
   }
 }
 
@@ -34,15 +58,17 @@
 
   color: $primary-white-color;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.3;
   letter-spacing: 0.06em;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 480px) {
     width: 360px;
     font-size: 26px;
     line-height: 1.6;
-    letter-spacing: 0.06em;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.3;
   }
 }
 

@@ -11,6 +11,13 @@
 
     justify-content: center;
   }
+  @media screen and(min-width: 1200px) {
+    display: block;
+    align-items: inherit;
+    text-align: inherit;
+
+    justify-content: baseline;
+  }
 }
 
 .page-footer__logo {
@@ -27,10 +34,13 @@
 .adress {
   font-style: normal;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and(max-width:1199px) {
     margin-right: 165px;
     margin-bottom: 60px;
     margin-left: 76px;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-right: 70px;
   }
 }
 .adress__text {
@@ -74,5 +84,14 @@
     margin-top: 60px;
     display: flex;
     align-items: baseline;
+  }
+}
+
+.footer-adress {
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+    padding-top: 0;
+    margin-top: 0;
   }
 }
