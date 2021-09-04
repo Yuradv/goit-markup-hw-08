@@ -1,5 +1,8 @@
 .page-header {
   border-bottom: 1px solid #ececec;
+
+  @media screen and(min-width: 786px) {
+  }
 }
 
 .page-header__logo {
@@ -22,11 +25,16 @@
 }
 
 .page-header__nav {
-  display: flex;
+  // display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-page-header__contacts {
+.page-header__contacts {
   position: relative;
+
+  @media screen and(min-width: 786px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }

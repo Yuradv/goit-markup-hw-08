@@ -3,11 +3,14 @@
 }
 
 .footer-subscribe__form {
-  width: 450px;
+  // width: 450px;
 
   @media screen and(max-width: 480px) {
-    max-width: 450px;
+    // max-width: 450px;
   }
+}
+.footer-subscribe__field {
+  max-width: 100%;
 }
 
 .footer-subscribe__input {
@@ -22,6 +25,7 @@
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
+  width: 100%;
 
   color: $primary-white-color;
   // margin-right: 12px;
@@ -66,8 +70,5 @@
   height: 50px;
 
   @media screen and(max-width: 480px) {
-    margin-top: 20px;
-    margin-bottom: 60px;
-    margin-left: 140px;
   }
 }

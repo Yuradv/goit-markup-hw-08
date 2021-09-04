@@ -1,5 +1,10 @@
 .features {
   // display: flex;
+
+  @media screen and (min-width: 767px) {
+    width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+  }
 }
 
 .features__item {
