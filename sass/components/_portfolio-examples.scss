@@ -25,6 +25,11 @@
       margin-bottom: 0px;
     }
   }
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 2 * 30px) / 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .examples__link {

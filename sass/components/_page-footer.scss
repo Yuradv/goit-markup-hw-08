@@ -26,6 +26,12 @@
 
 .adress {
   font-style: normal;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+    margin-bottom: 60px;
+    margin-left: 76px;
+  }
 }
 .adress__text {
   color: $primary-white-color;
@@ -60,5 +66,13 @@
   &:hover,
   &:focus {
     color: $accent-color;
+  }
+}
+
+.footer-adress__box {
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+    display: flex;
+    align-items: baseline;
   }
 }

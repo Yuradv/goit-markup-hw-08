@@ -1,7 +1,4 @@
 .team {
-  // margin-top: 50px;
-  // display: flex;
-  // justify-content: center;
   text-align: center;
 
   @media screen and (min-width: 480px) {
@@ -11,6 +8,13 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: unset;
+    justify-content: center;
   }
 }
 
