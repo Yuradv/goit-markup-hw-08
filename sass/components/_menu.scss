@@ -95,6 +95,9 @@
     color: $accent-color;
   }
 }
+.mobile-menu__link--active {
+  color: $accent-color;
+}
 
 .mobile-social {
   display: flex;

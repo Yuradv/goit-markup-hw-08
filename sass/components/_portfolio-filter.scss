@@ -5,8 +5,7 @@
   min-width: 73px;
   padding: 6px 22px 6px 22px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -18,11 +17,10 @@
 
 .filter {
   display: flex;
-  // justify-content: center;
-  // margin-bottom: 50px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and(max-width: 768px) {
     flex-wrap: wrap;
+
     margin-bottom: 44px;
   }
   @media screen and (min-width: 768px) {

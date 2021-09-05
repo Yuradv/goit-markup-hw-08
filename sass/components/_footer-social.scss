@@ -5,9 +5,6 @@
   font-weight: 700;
   color: $primary-white-color;
   text-transform: uppercase;
-  @media screen and(min-width: 480px) {
-    margin-top: 60px;
-  }
 
   @media screen and (min-width: 768px) {
     margin-top: 0;
@@ -16,9 +13,7 @@
 
 .footer-social__list {
   display: flex;
-  @media screen and(min-width: 480px) {
-    justify-content: center;
-  }
+  justify-content: center;
 }
 
 .footer-social__item {
@@ -50,14 +45,10 @@
 }
 
 .footer-social {
-  // margin-left: 70px;
-  @media screen and(max-width: 480px) {
+  @media screen and(max-width: 767px) {
     margin-top: 60px;
     margin-bottom: 60px;
     align-items: center;
     justify-content: center;
-  }
-  @media screen and(min-width: 1200px) {
-    margin-right: 93px;
   }
 }

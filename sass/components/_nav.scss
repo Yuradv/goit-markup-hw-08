@@ -1,13 +1,11 @@
 .nav {
-  // margin-left: 93px;
-  @media (min-width: 480px) and(max-width: 767px) {
+  @media (max-width: 767px) {
     display: none;
   }
   @media (min-width: 768px) {
     display: flex;
     margin-left: 88px;
     align-items: center;
-    // margin-right: 84px;
   }
 }
 
@@ -20,17 +18,17 @@
     margin-right: 0px;
   }
 
-  @media screen and(max-width:480px) and (max-width: 765px) {
+  @media screen and(max-width: 767px) {
     margin-bottom: 32px;
 
     &:last-child {
       margin-bottom: 302px;
     }
-    @media screen and(min-width:768px) {
-      font-size: 14px;
-      line-height: 1.14;
-      letter-spacing: 0.02em;
-    }
+  }
+  @media screen and(min-width:768px) {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
   }
 }
 
@@ -50,11 +48,12 @@
     color: $accent-color;
   }
 
-  @media screen and(min-width:480px) and(max-width:767px) {
+  @media screen and(max-width: 767px) {
     margin-left: 40px;
     font-size: 40px;
     line-height: 1.17;
   }
+
   @media screen and(min-width:768px) {
     font-size: 14px;
     line-height: 1.14;

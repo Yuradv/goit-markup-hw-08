@@ -60,7 +60,7 @@
         </button>
         <div class="mobile-menu">
             <ul class="mobile-menu__list">
-                <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Студия</a></li>
+                <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link mobile-menu__link--active">Студия</a></li>
                 <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link">Портфолио</a></li>
                 <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакты</a></li>
             </ul>
@@ -76,6 +76,8 @@
                             info@example.com
                         </a>
                     </li>
+                    
+                   
                   
                 </ul>
                 <ul class="mobile-social">
@@ -165,14 +167,23 @@
             <div class="container">
                 <h2 class="section__title section__title--hidden">Чем мы занимаемся</h2>
                 <ul class="work">
-                    <li class="work__item"><img src="./images/box1.jpg" alt="Написание кодов" >
-                       
+                    <li class="work__item">
+                        <picture>
+                            <source srcset=" ./images/index/box1@1x.jpg 1x, ./images/index/box1@2x.jpg 2x" media="(min-width: 1200px)">
+                            <img src="./images/index/box1@1x.jpg" alt="Написание кодов" width="370" height="294" />
+                        </picture>
                         <p class="work__text">Десктопные приложения</p></li>
-                    <li class="work__item"><img src="./images/box2.jpg" alt="Работа с мобильными приложениями"
-                    >
+                    <li class="work__item">
+                    <picture>
+                        <source srcset=" ./images/index/box2@1x.jpg 1x, ./images/index/box2@2x.jpg 2x" media="(min-width: 1200px)">
+                        <img src="./images/index/box2@1x.jpg" alt="Работа с мобильными приложениями" width="370" height="294" />
+                    </picture>
                         <p class="work__text">Мобильные приложения</p></li>
-                    <li class="work__item"><img src="./images/box3.jpg" alt="Работа с графическими програмамми"
-                    >
+                    <li class="work__item">
+                        <picture>
+                            <source srcset=" ./images/index/box3@1x.jpg 1x, ./images/index/box3@2x.jpg 2x" media="(min-width: 1200px)">
+                            <img src="./images/index/box3@1x.jpg" alt="Работа с графическими програмамми" width="370" height="294" />
+                        </picture>
                         <p class="work__text">Дизайнерские решения</p></li>
                 </ul>
             </div>
@@ -188,13 +199,14 @@
                 <h2 class="section__title">Наша Команда</h2>
                 <ul class="team">
                     <li class="team__item"> 
-                        <img 
-                        srcset="
-                              ./images/person1-480px.jpg 1x,
-                              ./images/person1-786px.jpg 2x,
-                              ./images/person1-1200px.jpg 3x
-                            " 
-                            src="./images/person1-480px.jpg" alt="Фото члена команды Игоря Демьяненко" width="320" />
+                        <picture>
+                            <source srcset=" ./images/index/person1desk1x.jpg 1x, ./images/index/person1desk2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 1200px)">
+                            <source srcset=" ./images/index/person1tab1x.jpg 1x, ./images/index/person1tab2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 768px)">
+                            <source srcset=" ./images/index/person1mob1x.jpg 1x, ./images/index/person1mob2x.jpg 2x" type="image/jpg"
+                                media="(max-width: 767px)">
+                            <img src="./images/index/person1tab1x.jpg" alt="Фото члена команды Игоря Демьяненко" width="270" height="260">
                         <div class="team__box">
                             <h3 class="team__person">Игорь Демьяненко</h3>
                             <p class="team__text">Product Designer</p>
@@ -230,11 +242,14 @@
 
 
                     <li class="team__item">
-                        <img srcset="
-                                                      ./images/person2-480px.jpg 1x,
-                                                      ./images/person2-786px.jpg 2x,
-                                                      ./images/person2-1200px.jpg 3x
-                                                    " src="./images/person2-480px.jpg" alt="Фото члена команды Ольга Репина" width="320" />
+                        <picture>
+                            <source srcset=" ./images/index/person2desk1x.jpg 1x, ./images/index/person2desk2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 1200px)">
+                            <source srcset=" ./images/index/person2tab1x.jpg 1x, ./images/index/person2tab2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 768px)">
+                            <source srcset=" ./images/index/person2mob1x.jpg 1x, ./images/index/person2mob2x.jpg 2x" type="image/jpg"
+                                media="(max-width: 767px)">
+                            <img src="./images/index/person2tab1x.jpg" alt="Фото члена команды Ольга Репина" width="270" height="260">
                         <div class="team__box">
                             <h3 class="team__person">Ольга Репина</h3>
                             <p class="team__text">Frontend Developer</p>
@@ -268,12 +283,15 @@
                         </div>
                     </li>
 
-                    <li class="team__item"><img srcset="
-                                                                          ./images/person3-480px.jpg 1x,
-                                                                          ./images/person3-786px.jpg 2x,
-                                                                          ./images/person3-1200px.jpg 3x
-                                                                        " src="./images/person3-480px.jpg"
-                        alt="Фото члена команды Николай Тарасов" width="320" />
+                    <li class="team__item">
+                        <picture>
+                            <source srcset=" ./images/index/person3desk1x.jpg 1x, ./images/index/person3desk2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 1200px)">
+                            <source srcset=" ./images/index/person3tab1x.jpg 1x, ./images/index/person3tab2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 768px)">
+                            <source srcset=" ./images/index/person3mob1x.jpg 1x, ./images/index/person3mob2x.jpg 2x" type="image/jpg"
+                                media="(max-width: 767px)">
+                            <img src="./images/index/person3tab1x.jpg" alt="Фото члена команды Николая Тарасова" width="270" height="260">
                         <div class="team__box">
                             <h3 class="team__person">Николай Тарасов</h3>
                             <p class="team__text">Marketing</p>
@@ -307,12 +325,14 @@
 
                     </li>
 
-                    <li class="team__item"><img srcset="
-                                                                          ./images/person4-480px.jpg 1x,
-                                                                          ./images/person4-786px.jpg 2x,
-                                                                          ./images/person4-1200px.jpg 3x
-                                                                        " src="./images/person4-480px.jpg"
-                        alt="Фото члена команды Михаил Ермаков" width="320" />
+                    <li class="team__item"><picture>
+                        <source srcset=" ./images/index/person4desk1x.jpg 1x, ./images/index/person4desk2x.jpg 2x" type="image/jpg"
+                            media="(min-width: 1200px)">
+                        <source srcset=" ./images/index/person4tab1x.jpg 1x, ./images/index/person4tab2x.jpg 2x" type="image/jpg"
+                            media="(min-width: 768px)">
+                        <source srcset=" ./images/index/person4mob1x.jpg 1x, ./images/index/person4mob2x.jpg 2x" type="image/jpg"
+                            media="(max-width: 767px)">
+                        <img src="./images/index/person4tab1x.jpg" alt="Фото члена команды Михаила Ермакова" width="270" height="260">
                         <div class="team__box">
                             <h3 class="team__person">Михаил Ермаков</h3>
                             <p class="team__text">UI Designer</p>
@@ -353,7 +373,7 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="section__title">Постоянные клиенты</h2>
+                <h2 class="section__title section__title--margin">Постоянные клиенты</h2>
                 <ul class="client">
                     <li class="client__item"><a href="#" class="client__link">
                             <svg class="client__icon" width="106px" height="60px">

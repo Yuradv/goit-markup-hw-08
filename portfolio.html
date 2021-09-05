@@ -64,19 +64,19 @@
         <div class="mobile-menu">
             <ul class="mobile-menu__list">
                 <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Студия</a></li>
-                <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link">Портфолио</a></li>
+                <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link mobile-menu__link--active">Портфолио</a></li>
                 <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакты</a></li>
             </ul>
             <div class="mobile-wrapper">
                 <ul class="mobile-contacts">
                     <li class="mobile-contacts__item">
-                        <a href="mailto:info@example.com" class="mobile-contacts__link">
-                            info@example.com
+                        <a href="tel:+380961111111" class="mobile-contacts__link-tel">
+                            +38 096 111 11 11
                         </a>
                     </li>
                     <li class="mobile-contacts__item">
-                        <a href="tel:+380961111111" class="mobile-contacts__link">
-                            +38 096 111 11 11
+                        <a href="mailto:info@example.com" class="mobile-contacts__link-mail">
+                            info@example.com
                         </a>
                     </li>
                 </ul>
@@ -120,11 +120,16 @@
                 <li class="examples__item">
                     <a href="#" class="examples__link">
                     <div class="examples__content">
-<img srcset="
-                      ./images/imgbox1-480px.jpg 1x,
-                      ./images/imgbox1-786px.jpg 2x,
-                      ./images/imgbox1-1200px.jpg 3x
-                    " src="./images/imgbox1-480px.jpg" alt="Создание веб-сайтов с портфоли" width="370" />                    <div class="examples__overlay">
+                        <picture>
+                            <source srcset=" ./images/portfolio/imgbox1desk1x.jpg 1x, ./images/portfolio/imgbox1desk2x.jpg 2x" type="image/jpg"
+                            media="(min-width: 1200px)">
+                            <source srcset=" ./images/portfolio/imgbox1tab1x.jpg 1x, ./images/portfolio/imgbox1tab2x.jpg 2x" type="image/jpg"
+                            media="(min-width: 768px)">
+                            <source srcset=" ./images/portfolio/imgbox1mob1x.jpg 1x, ./images/portfolio/imgbox1mob2x.jpg 2x" type="image/jpg"
+                            media="(max-width: 767px)">
+                            <img src="./images/portfolio/imgbox1tab1x.jpg" alt="Создание веб-сайтов с портфолио" width=370 height=294>
+                        </picture>
+                    <div class="examples__overlay">
                     <p class="examples__text">
                         Технокряк это современная площадка распространения коронавируса. Компании используют эту
                         платформу для цифрового
@@ -145,12 +150,15 @@
                 <a href="#" class="examples__link">
 
                     <div class="examples__content">
-                <img srcset="
-                      ./images/imgbox2-480px.jpg 1x,
-                      ./images/imgbox2-786px.jpg 2x,
-                      ./images/imgbox2-1200px.jpg 3x
-                    "
-                    src="./images/imgbox2-480px.jpg" alt="Создание веб-сайтов с портфолио" width="370" />
+                <picture>
+                    <source srcset=" ./images/portfolio/imgbox2desk1x.jpg 1x, ./images/portfolio/imgbox2desk2x.jpg 2x" type="image/jpg"
+                        media="(min-width: 1200px)">
+                    <source srcset=" ./images/portfolio/imgbox2tab1x.jpg 1x, ./images/portfolio/imgbox2tab2x.jpg 2x" type="image/jpg"
+                        media="(min-width: 768px)">
+                    <source srcset=" ./images/portfolio/imgbox2mob1x.jpg 1x, ./images/portfolio/imgbox2mob2x.jpg 2x" type="image/jpg"
+                        media="(max-width: 767px)">
+                    <img src="./images/portfolio/imgbox2tab1x.jpg" alt="Баскетболисты, создание постеров" width=370 height=294>
+                </picture>
                    <div class="examples__overlay">
                          <p class="examples__text">
                              Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -172,12 +180,15 @@
                     <a href="#" class="examples__link">
                     <div class="examples__content">
                     
-                        <img srcset="
-                            ./images/imgbox3-480px.jpg 1x,
-                            ./images/imgbox3-786px.jpg 2x,
-                            ./images/imgbox3-1200px.jpg 3x
-                            "
-                            src="./images/imgbox3-480px.jpg" alt="Логотип рыбы" width="370" />
+                        <picture>
+                            <source srcset=" ./images/portfolio/imgbox3desk1x.jpg 1x, ./images/portfolio/imgbox3desk2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 1200px)">
+                            <source srcset=" ./images/portfolio/imgbox3tab1x.jpg 1x, ./images/portfolio/imgbox3tab2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 768px)">
+                            <source srcset=" ./images/portfolio/imgbox3mob1x.jpg 1x, ./images/portfolio/imgbox3mob2x.jpg 2x" type="image/jpg"
+                                media="(max-width: 767px)">
+                            <img src="./images/portfolio/imgbox3tab1x.jpg" alt="Логотип Рыбы. Создание приложений" width=370 height=294>
+                        </picture>
                             <div class="examples__overlay">
                                 <p class="examples__text">
                                     Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -197,12 +208,15 @@
                 <li class="examples__item">
                     <a href="#" class="examples__link">
                         <div class="examples__content">
-                            <img srcset="
-                                ./images/imgbox4-480px.jpg 1x,
-                                ./images/imgbox4-786px.jpg 2x,
-                                ./images/imgbox4-1200px.jpg 3x
-                                                                                                                        "
-                                src="./images/imgbox4-480px.jpg" alt="Создание веб-сайтов с портфоли" width="370" />
+                            <picture>
+                                <source srcset=" ./images/portfolio/imgbox4desk1x.jpg 1x, ./images/portfolio/imgbox4desk2x.jpg 2x" type="image/jpg"
+                                    media="(min-width: 1200px)">
+                                <source srcset=" ./images/portfolio/imgbox4tab1x.jpg 1x, ./images/portfolio/imgbox4tab2x.jpg 2x" type="image/jpg"
+                                    media="(min-width: 768px)">
+                                <source srcset=" ./images/portfolio/imgbox4mob1x.jpg 1x, ./images/portfolio/imgbox4mob2x.jpg 2x" type="image/jpg"
+                                    media="(max-width: 767px)">
+                                <img src="./images/portfolio/imgbox4tab1x.jpg" alt="Наушники. Продвижение маркетинга" width=370 height=294>
+                            </picture>
                             <div class="examples__overlay">
                                 <p class="examples__text">
                                     Технокряк это современная площадка распространения коронавируса. Компании используют эту
@@ -224,12 +238,15 @@
                     <a href="#" class="examples__link">
                     <div class="examples__content">
                     
-                        <img srcset="
-                                ./images/imgbox5-480px.jpg 1x,
-                                ./images/imgbox5-786px.jpg 2x,
-                                ./images/imgbox5-1200px.jpg 3x
-                                                                                                                                                "
-                            src="./images/imgbox5-480px.jpg" alt="Ящики с приложениями" width="370" />
+                        <picture>
+                            <source srcset=" ./images/portfolio/imgbox5desk1x.jpg 1x, ./images/portfolio/imgbox5desk2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 1200px)">
+                            <source srcset=" ./images/portfolio/imgbox5tab1x.jpg 1x, ./images/portfolio/imgbox5tab2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 768px)">
+                            <source srcset=" ./images/portfolio/imgbox5mob1x.jpg 1x, ./images/portfolio/imgbox5mob2x.jpg 2x" type="image/jpg"
+                                media="(max-width: 767px)">
+                            <img src="./images/portfolio/imgbox5tab1x.jpg" alt="Ящики с приложениями" width=370 height=294>
+                        </picture>
                     <div class="examples__overlay">
                         <p class="examples__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового
@@ -249,12 +266,15 @@
                     <a href="#" class="examples__link">
                     <div class="examples__content">
                     
-                    <img srcset="
-                            ./images/imgbox6-480px.jpg 1x,
-                            ./images/imgbox6-786px.jpg 2x,
-                            ./images/imgbox6-1200px.jpg 3x
-                                                                                                                                                                    "
-                        src="./images/imgbox6-480px.jpg" alt="Компьютер. Разработка веб-сайтов" width="370" />
+                    <picture>
+                        <source srcset=" ./images/portfolio/imgbox6desk1x.jpg 1x, ./images/portfolio/imgbox6desk2x.jpg 2x" type="image/jpg"
+                            media="(min-width: 1200px)">
+                        <source srcset=" ./images/portfolio/imgbox6tab1x.jpg 1x, ./images/portfolio/imgbox6tab2x.jpg 2x" type="image/jpg"
+                            media="(min-width: 768px)">
+                        <source srcset=" ./images/portfolio/imgbox6mob1x.jpg 1x, ./images/portfolio/imgbox6mob2x.jpg 2x" type="image/jpg"
+                            media="(max-width: 767px)">
+                        <img src="./images/portfolio/imgbox6tab1x.jpg" alt="Компьютер. Разработка веб-сайтов" width=370 height=294>
+                    </picture>
                     <div class="examples__overlay">
                         <p class="examples__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового
@@ -274,12 +294,15 @@
                     <a href="#" class="examples__link">
                     <div class="examples__content">
                     
-                        <img srcset="
-                                ./images/imgbox7-480px.jpg 1x,
-                                ./images/imgbox7-786px.jpg 2x,
-                                ./images/imgbox7-1200px.jpg 3x
-                                                                                                                                                                        "
-                            src="./images/imgbox7-480px.jpg" alt="Книга" width="370" />
+                        <picture>
+                            <source srcset=" ./images/portfolio/imgbox7desk1x.jpg 1x, ./images/portfolio/imgbox7desk2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 1200px)">
+                            <source srcset=" ./images/portfolio/imgbox7tab1x.jpg 1x, ./images/portfolio/imgbox7tab2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 768px)">
+                            <source srcset=" ./images/portfolio/imgbox7mob1x.jpg 1x, ./images/portfolio/imgbox7mob2x.jpg 2x" type="image/jpg"
+                                media="(max-width: 767px)">
+                            <img src="./images/portfolio/imgbox7tab1x.jpg" alt="Книга. Создание дизайнов" width=370 height=294>
+                        </picture>
                         <div class="examples__overlay">
                             <p class="examples__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                 платформу для цифрового
@@ -299,12 +322,15 @@
                     <a href="#" class="examples__link">
                     <div class="examples__content">
                     
-                        <img srcset="
-                                ./images/imgbox8-480px.jpg 1x,
-                                ./images/imgbox8-786px.jpg 2x,
-                                ./images/imgbox8-1200px.jpg 3x
-                                                                                                                                                                        "
-                            src="./images/imgbox8-480px.jpg" alt="Бирка. Сопровождение маркетинга" width="370" />
+                        <picture>
+                            <source srcset=" ./images/portfolio/imgbox8desk1x.jpg 1x, ./images/portfolio/imgbox8desk2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 1200px)">
+                            <source srcset=" ./images/portfolio/imgbox8tab1x.jpg 1x, ./images/portfolio/imgbox8tab2x.jpg 2x" type="image/jpg"
+                                media="(min-width: 768px)">
+                            <source srcset=" ./images/portfolio/imgbox8mob1x.jpg 1x, ./images/portfolio/imgbox8mob2x.jpg 2x" type="image/jpg"
+                                media="(max-width: 767px)">
+                            <img src="./images/portfolio/imgbox8tab1x.jpg" alt="Бирка. Сопровождение маркетинга" width=370 height=294>
+                        </picture>
                     <div class="examples__overlay">
                         <p class="examples__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового
@@ -323,12 +349,15 @@
                 <li class="examples__item">
                     <a href="#" class="examples__link">
                         <div class="examples__content">
-                            <img srcset="
-                                ./images/imgbox9-480px.jpg 1x,
-                                ./images/imgbox9-786px.jpg 2x,
-                                ./images/imgbox9-1200px.jpg 3x
-                                                                                                                                                                            "
-                                src="./images/imgbox9-480px.jpg" alt="Ноутбук" width="370" />
+                            <picture>
+                                <source srcset=" ./images/portfolio/imgbox9desk1x.jpg 1x, ./images/portfolio/imgbox9desk2x.jpg 2x" type="image/jpg"
+                                    media="(min-width: 1200px)">
+                                <source srcset=" ./images/portfolio/imgbox9tab1x.jpg 1x, ./images/portfolio/imgbox9tab2x.jpg 2x" type="image/jpg"
+                                    media="(min-width: 768px)">
+                                <source srcset=" ./images/portfolio/imgbox9mob1x.jpg 1x, ./images/portfolio/imgbox9mob2x.jpg 2x" type="image/jpg"
+                                    media="(max-width: 767px)">
+                                <img src="./images/portfolio/imgbox9tab1x.jpg" alt="Ноутбук. Создание приложений" width=370 height=294>
+                            </picture>
                             <div class="examples__overlay">
                                 <p class="examples__text">
                                     Технокряк это современная площадка распространения коронавируса. Компании используют эту

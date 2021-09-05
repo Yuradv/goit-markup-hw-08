@@ -34,7 +34,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid red;
+  width: 380px;
 
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -55,7 +55,7 @@ body {
   padding-left: 0;
   padding-right: 0;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (max-width: 1199px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -63,6 +63,10 @@ body {
 
 .section--nopaddingtop {
   padding-top: 0;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .section__title {
@@ -71,7 +75,7 @@ body {
   text-align: center;
   font-weight: 700;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1199px) {
     font-size: 28px;
     line-height: 1.17;
   }
@@ -80,6 +84,12 @@ body {
 .section__title--hidden {
   @media screen and(max-width: 1199px ) {
     display: none;
+  }
+}
+
+.section__title--margin {
+  @media screen and(max-width:1199px) {
+    margin-bottom: 30px;
   }
 }
 
@@ -115,6 +125,13 @@ button {
 }
 
 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+picture {
   display: block;
   width: 100%;
   height: auto;
