@@ -48,6 +48,11 @@
       url(../images/herodesk2x.jpg);
     background-size: cover;
   }
+
+  @media screen and (max-width: 1199px) {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
 }
 
 .hero__title {

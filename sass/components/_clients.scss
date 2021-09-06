@@ -4,8 +4,6 @@
   margin: -15px;
 
   @media screen and (min-width: 1200px) {
-    flex-wrap: unset;
-    margin-top: 50px;
     justify-content: center;
   }
 }
@@ -18,15 +16,12 @@
     width: calc((100% - 2 * 30px) / 2);
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) {
     width: calc((100% - 90px) / 3);
   }
 
   @media screen and (min-width: 1200px) {
-    // width: calc((100% - 150px) / 6);
-    margin-bottom: 0;
-    margin-top: 0;
-    width: 170px;
+    width: calc((100% - 180px) / 6);
 
     &:last-child {
       margin-right: 0;

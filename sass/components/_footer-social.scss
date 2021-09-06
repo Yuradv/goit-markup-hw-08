@@ -27,7 +27,9 @@
 }
 
 .footer-social__link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -41,14 +43,10 @@
 
 .footer-social__icon {
   fill: $primary-white-color;
-  margin: 12px;
 }
 
 .footer-social {
   @media screen and(max-width: 767px) {
     margin-top: 60px;
-    margin-bottom: 60px;
-    align-items: center;
-    justify-content: center;
   }
 }

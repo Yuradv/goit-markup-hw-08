@@ -35,9 +35,9 @@
   font-style: normal;
 
   @media screen and (min-width: 768px) and(max-width:1199px) {
-    margin-right: 165px;
-    margin-bottom: 60px;
-    margin-left: 76px;
+    // margin-right: 165px;
+    // margin-bottom: 60px;
+    // margin-left: 76px;
   }
   @media screen and(min-width: 1200px) {
     margin-right: 70px;
@@ -80,12 +80,21 @@
 }
 
 .footer-adress__box {
+  @media screen and(max-width: 767px) {
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: baseline;
+    justify-content: space-around;
+    margin-bottom: 60px;
   }
   @media screen and(min-width: 1200px) {
     margin-right: 93px;
+    margin-bottom: 0;
   }
 }
 

@@ -30,6 +30,10 @@
     &:nth-child(2n) {
       margin-right: 0;
     }
+    &:nth-child(3),
+    &:nth-child(4) {
+      margin-bottom: 0;
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -100,7 +104,6 @@
 .social__icon {
   justify-content: center;
   fill: #afb1b8;
-  margin: 12px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
